@@ -1,5 +1,4 @@
-#GG
-service: s3-file-api
+service: hanselware-s3-file-api
 
 provider:
   name: aws
@@ -16,7 +15,7 @@ plugins:
   - serverless-iam-roles-per-function
 
 custom:
-  fileBucketName: bigdog39-s3-file-bucket-${self:provider.stage}
+  fileBucketName: hanselware-s3-file-bucket-${self:provider.stage}
 
 functions:
   s3FileUploader:
