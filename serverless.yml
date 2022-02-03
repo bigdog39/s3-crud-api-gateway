@@ -4,10 +4,10 @@ provider:
   name: aws
   runtime: nodejs12.x
   stage: dev
-  region: us-west-1
+  region: us-west-2
   apiName: ${self:service}
-  memorySize: 128 # mb
-  timeout: 10 # seconds
+  memorySize: 256 # mb
+  timeout: 30 # seconds
   environment:
     FILE_UPLOAD_BUCKET_NAME: ${self:custom.fileBucketName}
 
