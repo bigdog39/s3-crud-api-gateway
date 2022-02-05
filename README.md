@@ -4,3 +4,9 @@
 
 ### Youtube Tutorial
 * [Full Video Tutorial](https://youtu.be/Too-U4bcJEs)
+
+Greg's checklist
+
+1) create new user s3-crud-user
+2) add new user to aws cli
+3) add new user to github actions for this repo

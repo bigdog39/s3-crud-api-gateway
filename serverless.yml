@@ -3,7 +3,7 @@ service: hanselware-s3-file-api
 provider:
   name: aws
   runtime: nodejs12.x
-  stage: dev
+  stage: poc
   region: us-west-2
   apiName: ${self:service}
   memorySize: 256 # mb
